@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { AppRegistry, Image } from 'react-native';
+import { AppRegistry, Image, Text, View } from 'react-native';
+
+
 
 export default class Bananas extends Component {
     render() {
@@ -9,8 +11,11 @@ export default class Bananas extends Component {
         return (
             <Image source={pic} style={{ width: 193, height: 110 }} />
         );
+       
     }
 
 }
+
+
 
 AppRegistry.registerComponent('AwesomeProject', () => Bananas);
