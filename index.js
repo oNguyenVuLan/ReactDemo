@@ -3,5 +3,6 @@ import App from './App';
 import Bananas from './Bananas';
 import BlinkApp from './Blink';
 import StyleComponent from './StyleComponent';
+import FixedDimensionsBasics from './FixedDimension';
 
-AppRegistry.registerComponent('AwesomeProject', () =>StyleComponent);
+AppRegistry.registerComponent('AwesomeProject', () =>FixedDimensionsBasics);
