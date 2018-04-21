@@ -6,5 +6,6 @@ import StyleComponent from './StyleComponent';
 import FixedDimensionsBasics from './FixedDimension';
 import PizzaTranslator from './PizzaTranslator';
 import ButtonBasics from './ButtonBasics';
+import FlatListBasic from './FlatListBasic';
 
-AppRegistry.registerComponent('AwesomeProject', () =>PizzaTranslator);
+AppRegistry.registerComponent('AwesomeProject', () =>FlatListBasic);
