@@ -5,5 +5,6 @@ import BlinkApp from './Blink';
 import StyleComponent from './StyleComponent';
 import FixedDimensionsBasics from './FixedDimension';
 import PizzaTranslator from './PizzaTranslator';
+import ButtonBasics from './ButtonBasics';
 
 AppRegistry.registerComponent('AwesomeProject', () =>PizzaTranslator);
